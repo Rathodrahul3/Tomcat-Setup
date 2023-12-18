@@ -31,7 +31,7 @@ Tomcat is an open-source web server and servlet. The Apache Software Foundation 
  5. Create user for Tomcat Application and Setup Password.
  6. Change owner permission of /opt/tomcat directory to tomcat user and Login to tomcat user.
    ```
-     sudo chown -R tomcat:tomcat /opt/tomcat/
+     sudo chown -R <UserName>:<UserName> /opt/tomcat/
    ```
  7. Create symbolic link to startup.sh and shutdown.sh file so that tomcat server start and stop can be executed from any directory. 
    ```
